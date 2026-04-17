@@ -21,6 +21,7 @@ lightning_logs/
 
 # Models
 Trained_models/
+Burst_Super_Resolution/Models/
 
 # Testset
 Burst De-noising/input/

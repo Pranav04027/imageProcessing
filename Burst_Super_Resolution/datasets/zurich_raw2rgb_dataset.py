@@ -47,7 +47,12 @@ class ZurichRAW2RGB(torch.utils.data.Dataset):
 
     def _get_image(self, im_id):
         path = os.path.join(self.img_pth, self.image_list[im_id])
-        img = cv2.imread(path)
+        # Use Pillow for more robust loading
+        from PIL import Image
+        img_pil = Image.open(path).convert('RGB')
+        img = np.array(img_pil)
+        img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR) # Keep BGR for consistency with original code
+        
         if random.randint(0, 1) == 1 and self.split == "train":
             flag_aug = random.randint(1, 7)
             img = self.data_augmentation(img, flag_aug)
