@@ -35,12 +35,10 @@ args = parser.parse_args()
 
 ######################################### Load BIPNet ####################################################
 
-model = BIPNet(mode='color').load_from_checkpoint(args.weights, mode='color')
+model = BIPNet.load_from_checkpoint(args.weights, mode='color', map_location=torch.device('cpu'))
 
 print("Model Loaded")
 model = model
-model.cuda()
-model.summarize()
 
 #####################################################################
 
@@ -62,9 +60,9 @@ for i, data in enumerate(test_loader):
     burst, labels, info = data            
     noise_estimate = info['sigma_estimate']        
 
-    burst = burst.cuda()
-    labels = labels.cuda()
-    noise_estimate = noise_estimate.cuda()
+    # burst = burst.cuda()
+    # labels = labels.cuda()
+    # noise_estimate = noise_estimate.cuda()
                 
     with torch.no_grad():
         output = model(burst, noise_estimate)

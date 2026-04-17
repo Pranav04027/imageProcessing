@@ -5,38 +5,51 @@ import random
 import numpy as np
 
 
-
 class ZurichRAW2RGB(torch.utils.data.Dataset):
-    """ Canon RGB images from the "Zurich RAW to RGB mapping" dataset. You can download the full
+    """Canon RGB images from the "Zurich RAW to RGB mapping" dataset. You can download the full
     dataset (22 GB) from http://people.ee.ethz.ch/~ihnatova/pynet.html#dataset. Alternatively, you can only download the
     Canon RGB images (5.5 GB) from https://data.vision.ee.ethz.ch/bhatg/zurich-raw-to-rgb.zip
     """
-    def __init__(self, root, split='train'):
+
+    def __init__(self, root, split="train"):
         super().__init__()
 
-        if split in ['train', 'test']:
-            self.img_pth = os.path.join(root, split, 'canon')
+        # Get absolute path
+        root = os.path.abspath(root)
+
+        if split in ["train", "test"]:
+            # Check if original_images path exists (your dataset structure)
+            orig_path = os.path.join(root, "original_images", "canon")
+            if os.path.exists(orig_path):
+                self.img_pth = orig_path
+            else:
+                self.img_pth = os.path.join(root, split, "canon")
         else:
-            raise Exception('Unknown split {}'.format(split))
+            raise Exception("Unknown split {}".format(split))
 
         self.image_list = self._get_image_list(split)
         self.split = split
 
     def _get_image_list(self, split):
-        if split == 'train':
-            image_list = ['{:d}.jpg'.format(i) for i in range(46839)]#46839
-        elif split == 'test':
-            image_list = ['{:d}.jpg'.format(i) for i in range(1204)]
-        else:
-            raise Exception
+        import glob
 
+        image_dir = os.path.join(self.img_pth)
+        if os.path.exists(image_dir):
+            jpg_files = glob.glob(os.path.join(image_dir, "*.jpg"))
+            image_list = [os.path.basename(f) for f in jpg_files]
+            image_list = sorted(
+                image_list,
+                key=lambda x: int(x.split(".")[0]) if x.split(".")[0].isdigit() else 0,
+            )
+        else:
+            image_list = []
         return image_list
 
     def _get_image(self, im_id):
         path = os.path.join(self.img_pth, self.image_list[im_id])
         img = cv2.imread(path)
-        if random.randint(0,1) == 1 and self.split=='train':
-            flag_aug = random.randint(1,7)
+        if random.randint(0, 1) == 1 and self.split == "train":
+            flag_aug = random.randint(1, 7)
             img = self.data_augmentation(img, flag_aug)
         else:
             img = img
@@ -98,5 +111,5 @@ class ZurichRAW2RGB(torch.utils.data.Dataset):
             out = np.rot90(image, k=3)
             out = np.flipud(out)
         else:
-            raise Exception('Invalid choice of image transformation')
+            raise Exception("Invalid choice of image transformation")
         return out.copy()

@@ -27,9 +27,7 @@ args = parser.parse_args()
 ######################################### Load BIPNet ####################################################
 
 model = BIPNet()
-model = BIPNet.load_from_checkpoint(args.weights)
-model.cuda()
-model.summarize()
+model = BIPNet.load_from_checkpoint(args.weights, map_location=torch.device('cpu'))
 
 ######################################### NTIRE21 BurstSR Validation ####################################################
 
@@ -46,7 +44,6 @@ for idx in range(len(dataset)):
 
     print("Processing Burst:::: ", burst_name)
 
-    burst = burst.cuda()
     burst = burst.unsqueeze(0)
     with torch.no_grad():
         net_pred = model(burst)
@@ -63,7 +60,6 @@ for idx in range(len(dataset)):
 
     print("Processing Burst:::: ", burst_name)
 
-    burst = burst.cuda()
     burst = burst.unsqueeze(0)
     with torch.no_grad():
         net_pred = model(burst)

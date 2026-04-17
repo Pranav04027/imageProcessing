@@ -1,0 +1,32 @@
+
+# IDE
+.ruff_cache/
+.venv/
+
+# Virtual Env
+bipnet-venv/
+
+# Results
+*/results/
+Results/
+
+# Logs
+logs/
+*/logs/
+lightning_logs/
+
+# Cache
+*/__pycache__/
+*/*/__pycache__/
+
+# Models
+Trained_models/
+
+# Testset
+Burst De-noising/input/
+
+# Dataset/
+Zurich-RAW-to-DSLR-Dataset/
+
+# Others
+*.ps1

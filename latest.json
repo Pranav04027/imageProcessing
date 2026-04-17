@@ -1,0 +1,55 @@
+{
+  "version": "1.2.10",
+  "notes": "",
+  "pub_date": "2026-02-20T11:16:22.820Z",
+  "platforms": {
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOEl3cUM5TlhFQlI2em5Kc1IveHBjY3JQaGgrWVdyZnJwaXRGT0VCYkRydmFWSm96MkNFK1JMb09NUVpNYnFVNlBBRzdmSmZ1V2pRbHBkVXowUXc4NkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg1ODAwCWZpbGU6T3BlbkNvZGVfMS4yLjEwX2FtZDY0LmRlYgpWcXBLSkpscmhvLzRVWmFuQ2VORzdwckZGOFNnS0JZOCsxdmFvYlc0OVh0ditlbW9UNmdLOC9tVVY1NGFRTk83M1k0aW1lQWJteUVvUndOTUc0UHZBZz09Cg==",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-linux-amd64.deb"
+    },
+    "linux-x86_64-deb": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOEl3cUM5TlhFQlI2em5Kc1IveHBjY3JQaGgrWVdyZnJwaXRGT0VCYkRydmFWSm96MkNFK1JMb09NUVpNYnFVNlBBRzdmSmZ1V2pRbHBkVXowUXc4NkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg1ODAwCWZpbGU6T3BlbkNvZGVfMS4yLjEwX2FtZDY0LmRlYgpWcXBLSkpscmhvLzRVWmFuQ2VORzdwckZGOFNnS0JZOCsxdmFvYlc0OVh0ditlbW9UNmdLOC9tVVY1NGFRTk83M1k0aW1lQWJteUVvUndOTUc0UHZBZz09Cg==",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-linux-amd64.deb"
+    },
+    "linux-x86_64-rpm": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOExlR05SeDZIT0JncG5RckhnVW44a09JWHA4U25acVRUZVlhUDRCN2E5ZG5sTHJHa3luZ05rc0tXdHBBbmVOeG01M0k2QTF3dkk4a0NlWGN6RlAyVHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg1ODAwCWZpbGU6T3BlbkNvZGUtMS4yLjEwLTEueDg2XzY0LnJwbQpxY3FObk94NjYzelF6aC84cFE5RGg3TFFrTkRNQ1B6SjBJc3d4NXRjN1J0WEdGeVE5ZkFJZ1d6KzFrTnUwL1BRNWwwdzUrVFREbXRpYWszYUI1SE5DQT09Cg==",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-linux-x86_64.rpm"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOEM0YjFBaVNlVEFSMHMrWkJpRURXakx1WTVGdStzcmRCRDBtM0JyZzZBdFQrNmNIK09NV1ViSGljeGRaS213WlFROWlkaUZXa00vRDB4N1ZtRGd2WXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg1ODk2CWZpbGU6T3BlbkNvZGVfMS4yLjEwX3g2NC1zZXR1cC5leGUKL0xYcmNXd1ZPQXh3aHg0eXpVMjZjQ0lHOThwUUFLNXA3OFNHQVNRajFVdVc0VElQdng5ZldQbGRsZjFIRndPV0lYYVJwS1JMN2tvdFRIQVEzYnpnQnc9PQo=",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-windows-x64.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOEM0YjFBaVNlVEFSMHMrWkJpRURXakx1WTVGdStzcmRCRDBtM0JyZzZBdFQrNmNIK09NV1ViSGljeGRaS213WlFROWlkaUZXa00vRDB4N1ZtRGd2WXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg1ODk2CWZpbGU6T3BlbkNvZGVfMS4yLjEwX3g2NC1zZXR1cC5leGUKL0xYcmNXd1ZPQXh3aHg0eXpVMjZjQ0lHOThwUUFLNXA3OFNHQVNRajFVdVc0VElQdng5ZldQbGRsZjFIRndPV0lYYVJwS1JMN2tvdFRIQVEzYnpnQnc9PQo=",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-windows-x64.exe"
+    },
+    "linux-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOE90czZ1dHhEN1NWQmNtQmVRL2Z0MmUwbktwT293VE9ndTNiRjRza0YxcUFyMHpNZWVYQTZvY3M2VlJYY3ZwZVFza3huN1c1YlJuK1NtZzQ0ejFYVEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg1OTUzCWZpbGU6T3BlbkNvZGVfMS4yLjEwX2FybTY0LmRlYgppaWVSZW9hdE9ZUlZGOFhBMnIxVkd1cFhxZkEwYTBTQVhxUlhkdXZwY0M0dnlBbU5aVEV2d1FIZ3dmaXc4T0pWR29SYnp2Z3Q5N1B6U0wzMkVwenpCQT09Cg==",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-linux-arm64.deb"
+    },
+    "linux-aarch64-deb": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOE90czZ1dHhEN1NWQmNtQmVRL2Z0MmUwbktwT293VE9ndTNiRjRza0YxcUFyMHpNZWVYQTZvY3M2VlJYY3ZwZVFza3huN1c1YlJuK1NtZzQ0ejFYVEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg1OTUzCWZpbGU6T3BlbkNvZGVfMS4yLjEwX2FybTY0LmRlYgppaWVSZW9hdE9ZUlZGOFhBMnIxVkd1cFhxZkEwYTBTQVhxUlhkdXZwY0M0dnlBbU5aVEV2d1FIZ3dmaXc4T0pWR29SYnp2Z3Q5N1B6U0wzMkVwenpCQT09Cg==",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-linux-arm64.deb"
+    },
+    "linux-aarch64-rpm": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOENqTkJBWTdaT0lWL1FuYTc2eGprc3JlNmZXZ1lrVytKRnNjLytkRkFUbzJ6QkhkejJuUk1LQnBDdldOdmFybzVyYXlqZmlsb05QT2VQTmNYRXNNL2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg1OTUzCWZpbGU6T3BlbkNvZGUtMS4yLjEwLTEuYWFyY2g2NC5ycG0KQ0t4U1phd1R4ZkdqN0FrVzZsYTRDRUg4dDdNSDZzZE5aY05MOFRJVmdvR0F4bm92L0NMWXhCbjdWOXJXNTRjVXArZnlVYmhMZTVXbWRvd2ZUMEdZQVE9PQo=",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-linux-aarch64.rpm"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOElnbWtWb2RhL1Y0eGtuejFHM1JOY005VkRiL2gxWmwzWHBsckg2aVBBOXBTYVFWM1lnVjdUcGcwUWpXRUU2SWFwWTZqNEJXSkk1T2M1a0drYlNTT3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg2MDI2CWZpbGU6T3BlbkNvZGUuYXBwLnRhci5negp6Uk9obFdaZjc4K1VyZ25Bblp5aVlpMU9mamJ0TTEvcEpEczZwQnhSb0xMaVk4b2lCL1FsL1ZOV1EwWG95Tkt1ZEU0VzhVTjJFWWJ3SC9MUEllUklEUT09Cg==",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-darwin-aarch64.app.tar.gz"
+    },
+    "darwin-aarch64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOElnbWtWb2RhL1Y0eGtuejFHM1JOY005VkRiL2gxWmwzWHBsckg2aVBBOXBTYVFWM1lnVjdUcGcwUWpXRUU2SWFwWTZqNEJXSkk1T2M1a0drYlNTT3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg2MDI2CWZpbGU6T3BlbkNvZGUuYXBwLnRhci5negp6Uk9obFdaZjc4K1VyZ25Bblp5aVlpMU9mamJ0TTEvcEpEczZwQnhSb0xMaVk4b2lCL1FsL1ZOV1EwWG95Tkt1ZEU0VzhVTjJFWWJ3SC9MUEllUklEUT09Cg==",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-darwin-aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOEx1bVpoc3o4Y2s2Z0FmZUNhQ2t0ekRVYTVmRzhDYTg5bXNhd0xkK1dDWWU3dHhpRE1TK1hibm53RHpBNXJmK043ZmZ4L0dNUFpMaHlmN3AvTTNyS0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg2MTU3CWZpbGU6T3BlbkNvZGUuYXBwLnRhci5negpvZFdDVFBVbXpoM0lncEpFUHVwTEVkR1JrTk84TmRXZHk0UVJUblVyZzFRZjRMMmFpSy9sTkR4SkJjM29mZms0QWc0L0VPdjlwd3ZUZjY3NEYrMS9EZz09Cg==",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-darwin-x64.app.tar.gz"
+    },
+    "darwin-x86_64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRRW9UbWNpWmNEOEx1bVpoc3o4Y2s2Z0FmZUNhQ2t0ekRVYTVmRzhDYTg5bXNhd0xkK1dDWWU3dHhpRE1TK1hibm53RHpBNXJmK043ZmZ4L0dNUFpMaHlmN3AvTTNyS0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzcxNTg2MTU3CWZpbGU6T3BlbkNvZGUuYXBwLnRhci5negpvZFdDVFBVbXpoM0lncEpFUHVwTEVkR1JrTk84TmRXZHk0UVJUblVyZzFRZjRMMmFpSy9sTkR4SkJjM29mZms0QWc0L0VPdjlwd3ZUZjY3NEYrMS9EZz09Cg==",
+      "url": "https://github.com/anomalyco/opencode/releases/download/v1.2.10/opencode-desktop-darwin-x64.app.tar.gz"
+    }
+  }
+}
