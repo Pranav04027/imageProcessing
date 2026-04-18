@@ -1,19 +1,7 @@
-# Burst Image Restoration and Enhancement (CVPR 2022 -- Oral)
+# Burst Image Restoration and Enhancement
 
-[Akshay Dudhane](https://scholar.google.com/citations?user=BG_XEmkAAAAJ&hl=en), [Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Salman Khan](https://salman-h-khan.github.io/), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), and [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en)
-
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2110.03680)
-[![supplement](https://img.shields.io/badge/Supplementary-Material-red)](https://mbzuaiac-my.sharepoint.com/:b:/g/personal/akshay_dudhane_mbzuai_ac_ae/EZgPZBPNqUZDpeBtmh4MQvUBmvspLo8iy2SuovNuswH0Nw?e=Il33lg)
-
-
-#### News
-- **June 22, 2022:** BIPNet oral presentation is available [here](https://www.youtube.com/watch?v=pP4_uNRK1fo)
-- **June 21, 2022:** BIPNet was best paper finalist at CVPR 2022  :fire:
-- **April 3, 2022:** Training and Testing codes with pre-trained models are released :fire:
-- **March 29, 2022:** BIPNet is selected for an ORAL presentation at CVPR 2022 :dizzy:
-- **March 3, 2022:** Paper accepted at CVPR 2022 :tada: 
-
-<hr />
+Phase 1: https://drive.google.com/file/d/1XVCyhacwbnuwjHHYuI2ZXHc55WkGemkg/view?usp=drive_link
+Phase 2: https://drive.google.com/file/d/1n3CaZUHZ25iU-m8BBelM2nL8_HcyQLgg/view?usp=drive_link
 
 > **Abstract:** *Modern handheld devices can acquire burst image sequence in a quick succession. However, the individual acquired frames suffer from multiple degradations and are misaligned due to camera shake and object motions. The goal of Burst Image Restoration is to effectively combine
 complimentary cues across multiple burst frames to generate high-quality outputs. Towards this goal, we develop a novel approach by solely focusing on the effective information exchange between burst frames, such that the degradations get filtered out while the actual scene details are preserved and enhanced. Our central idea is to create a set of pseudo-burst features that combine complimentary information from all the input burst frames to
@@ -30,20 +18,3 @@ See [install.yml](install.yml) for the installation of dependencies required to 
 ```
 conda env create -f install.yml
 ```
-
-## Citation
-If you use BIPNet, please consider citing:
-    
-    @inproceedings{dudhane2021burst,
-            title={Burst Image Restoration and Enhancement},
-            author={Akshay Dudhane and Syed Waqas Zamir and Salman Khan and Fahad Shahbaz Khan and Ming-Hsuan Yang},
-            booktitle={CVPR},
-            year={2022}
-          }
-
-
-## Contact
-Should you have any question, please contact akshay.dudhane@mbzuai.ac.ae
-
-
-**Acknowledgment:** This code is based on the [NTIRE21_BURSTSR](https://github.com/goutamgmb/NTIRE21_BURSTSR) toolbox.
