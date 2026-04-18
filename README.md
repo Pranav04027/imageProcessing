@@ -1,6 +1,7 @@
 # Burst Image Restoration and Enhancement
 
 Phase 1: https://drive.google.com/file/d/1XVCyhacwbnuwjHHYuI2ZXHc55WkGemkg/view?usp=drive_link
+
 Phase 2: https://drive.google.com/file/d/1n3CaZUHZ25iU-m8BBelM2nL8_HcyQLgg/view?usp=drive_link
 
 > **Abstract:** *Modern handheld devices can acquire burst image sequence in a quick succession. However, the individual acquired frames suffer from multiple degradations and are misaligned due to camera shake and object motions. The goal of Burst Image Restoration is to effectively combine
